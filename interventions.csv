@@ -1,0 +1,25 @@
+Intervention,Ro,red.prop,stand.error
+Vac: all,fast,0.99937,5.00E-05
+Vac: betweenness,fast,0.50662,0.04351
+Vac: degree centrality,fast,0.57934,0.03623
+Vac: eigenvector centrality,fast,0.3876,0.05257
+Vac: random,fast,0.20769,0.06476
+Vac: N animals,fast,0.47289,0.04782
+Move ban: all,fast,0.82661,0.01256
+Move ban: betweenness,fast,0.75313,0.01988
+Move ban: degree centrality,fast,0.77419,0.01628
+Move ban: eigenvector centrality,fast,0.70084,0.02205
+Move ban: random,fast,0.3104,0.05725
+Move ban: N animals,fast,0.17443,0.06634
+Vac: all,slow,0.99805,1.00E-04
+Vac: betweenness,slow,0.27081,0.03427
+Vac: degree centrality,slow,0.3104,0.03292
+Vac: eigenvector centrality,slow,0.1685,0.03419
+Vac: random,slow,0.12379,0.03853
+Vac: N animals,slow,0.28129,0.03743
+Move ban: all,slow,0.3698,0.02888
+Move ban: betweenness,slow,0.26983,0.03406
+Move ban: degree centrality,slow,0.286,0.03094
+Move ban: eigenvector centrality,slow,0.20532,0.03358
+Move ban: random,slow,0.12373,0.04079
+Move ban: N animals,slow,0.10285,0.03575

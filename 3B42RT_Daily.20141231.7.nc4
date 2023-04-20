@@ -1,0 +1,48 @@
+File 3B42RT_Daily.20141231.7.nc4 (NC_FORMAT_NETCDF4):
+
+     6 variables (excluding dimension variables):
+        float precipitation[lat,lon]   (Chunking: [240,1440])  (Compression: level 6)
+            units: mm
+            long_name: Daily accumulated precipitation (combined microwave-IR) estimate
+            coordinates: lat lon
+            _FillValue: -9999.900390625
+        byte precipitation_cnt[lat,lon]   (Chunking: [240,1440])  (Compression: level 6)
+            units: count
+            long_name: Count of valid 3-hr precipitation retrievals for the day
+            coordinates: lat lon
+        float uncal_precipitation[lat,lon]   (Chunking: [240,1440])  (Compression: level 6)
+            units: mm
+            long_name: Daily accumulated uncalibrated precipitation
+            coordinates: lat lon
+            _FillValue: -9999.900390625
+        byte uncal_precipitation_cnt[lat,lon]   (Chunking: [240,1440])  (Compression: level 6)
+            units: count
+            long_name: Count of valid 3-hr uncal precipitation retrievals for the day
+            coordinates: lat lon
+        float randomError[lat,lon]   (Chunking: [240,1440])  (Compression: level 6)
+            units: mm
+            long_name: Daily total error of combined microwave-IR precipitation estimate
+            _FillValue: -9999.900390625
+        byte randomError_cnt[lat,lon]   (Chunking: [240,1440])  (Compression: level 6)
+            units: count
+            long_name: Count of randomError for the day
+            coordinates: lat lon
+
+     2 dimensions:
+        lon  Size:1440 
+            units: degrees_east
+            long_name: Longitude
+        lat  Size:480 
+            units: degrees_north
+            long_name: Latitude
+
+    8 global attributes:
+        BeginDate: 2014-12-31
+        BeginTime: 01:30:00.000Z
+        EndDate: 2015-01-01
+        EndTime: 01:29:59.999Z
+        FileHeader: StartGranuleDateTime=2014-12-31T01:30:00.000Z;
+StopGranuleDateTime=2015-01-01T01:29:59.999Z
+        InputPointer: /ftp/data/s4pa/.Zxt5FGhb5T/TRMM_RT/TRMM_3B42RT.7/2014/365/3B42RT.2014123103.7.nc4;/ftp/data/s4pa/.Zxt5FGhb5T/TRMM_RT/TRMM_3B42RT.7/2014/365/3B42RT.2014123106.7.nc4;/ftp/data/s4pa/.Zxt5FGhb5T/TRMM_RT/TRMM_3B42RT.7/2014/365/3B42RT.2014123109.7.nc4;/ftp/data/s4pa/.Zxt5FGhb5T/TRMM_RT/TRMM_3B42RT.7/2014/365/3B42RT.2014123112.7.nc4;/ftp/data/s4pa/.Zxt5FGhb5T/TRMM_RT/TRMM_3B42RT.7/2014/365/3B42RT.2014123115.7.nc4;/ftp/data/s4pa/.Zxt5FGhb5T/TRMM_RT/TRMM_3B42RT.7/2014/365/3B42RT.2014123118.7.nc4;/ftp/data/s4pa/.Zxt5FGhb5T/TRMM_RT/TRMM_3B42RT.7/2014/365/3B42RT.2014123121.7.nc4;/ftp/data/s4pa/.Zxt5FGhb5T/TRMM_RT/TRMM_3B42RT.7/2014/365/3B42RT.2015010100.7.nc4
+        title: TRMM (TMPA) Near Real-Time 3B42 L3 Daily  0.25 x 0.25 degree (TRMM_3B42RT_Daily)
+        ProductionTime: 2016-07-18T23:24:31.000Z
